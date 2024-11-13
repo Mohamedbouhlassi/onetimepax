@@ -53,9 +53,29 @@ public class MultiTimePad {
         key[3]= (byte) 0xbf;
         key[4]= (byte) 0xff;
         key[5]= (byte) 0xfc;
-        key[6]= (byte) 0xfd^73;
+        key[6]= (byte) 0xfd^ 0x73;
         key[7]= (byte) 0xfb;
+        key[8]= (byte) 0xe3^0x6e;
+        key[9]= (byte) 0x8b^0x20;
 
+        key[10]= (byte) 0xd1^ 0x64;
+        key[11]= (byte) 0x41^0x20;
+        key[12]= (byte) 0x87^0x67;
+        key[13]= (byte) 0xbb^0x20;
+        key[15]= (byte) 0xbf^ 0x20;
+        key[16]= (byte) 0x71^0x20;
+        key[17]= (byte) 0x5e^ 0x20;
+        key[19]= (byte) 0x90^ 0x20;
+        key[21]= (byte) 0x38^0x20;
+        key[22]= (byte) 0x28^0x20;
+        key[24]= (byte) 0x96^0x20;
+        key[25]= (byte) 0x38^0x20;
+        key[26]= (byte) 0xf3^0x20;
+        key[27]= (byte) 0xf3^ 0x20;
+        key[28]= (byte) 0x7c^ 0x20;
+        key[30]= (byte) 0x51^0x2e;
+
+        //key[30]= (byte) 0x51^0x;
 
         System.out.println("Key :");
         System.out.println(displayIndex);
