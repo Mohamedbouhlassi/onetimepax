@@ -1,7 +1,7 @@
 package org.dador;
 
 /**
- *
+ * Mohamed Bouhlassi Anas Nia
  */
 public class MultiTimePad {
 
